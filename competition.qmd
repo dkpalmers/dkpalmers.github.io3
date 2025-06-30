@@ -8,3 +8,8 @@ subtitle: "my data science portfolio"
 ## Title 2 Header
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+
+```{r}
+plot(1:20)
+```
+

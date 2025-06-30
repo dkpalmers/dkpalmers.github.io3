@@ -5,6 +5,13 @@ subtitle: "my data science portfolio"
 ---
 
 # Title 1 Header
+
+```{r}
+library(tidyverse)
+iris %>% ggplot(aes(x = Petal.Length, y = Petal.Width)) + geom_point()
+```
+
+
 ## Title 2 Header
 
 [MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
